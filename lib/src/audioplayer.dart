@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:audioplayers_extended/audioplayers.dart';
 import 'package:audioplayers_platform_interface/audioplayers_platform_interface.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
 import 'package:uuid/uuid.dart';
@@ -41,8 +42,12 @@ class AudioPlayer {
     _playerState = state;
   }
 
-  
-  Future<int?> get audioSessionId => _platform.audioSessionId;
+  Future<int?> get audioSessionId async {
+    await creatingCompleter.future;
+    final id = await _platform.audioSessionId;
+    debugPrint('audioSessionId: $id');
+    return id;
+  }
 
   /// Completer to wait until the native player and its event stream are
   /// created.
