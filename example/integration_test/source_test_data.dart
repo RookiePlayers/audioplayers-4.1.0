@@ -1,4 +1,4 @@
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_extended/audioplayers.dart';
 
 /// Data of a ui test source.
 abstract class SourceTestData {

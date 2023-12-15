@@ -63,4 +63,7 @@ class FakeGlobalAudioplayersPlatform
     calls.add(FakeGlobalCall(method: 'globalDispose'));
     eventStreamController.close();
   }
+
+  @override
+  Future<int?> get audioSessionId => Future.value(0);
 }

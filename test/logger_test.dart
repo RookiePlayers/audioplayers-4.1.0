@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_extended/audioplayers.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

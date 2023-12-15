@@ -155,4 +155,7 @@ class FakeAudioplayersPlatform extends AudioplayersPlatformInterface {
     calls.add(FakeCall(id: playerId, method: 'getEventStream'));
     return eventStreamControllers[playerId]!.stream;
   }
+
+  @override
+  Future<int?> get audioSessionId => Future.value(0);
 }

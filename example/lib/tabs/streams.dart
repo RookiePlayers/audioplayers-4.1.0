@@ -1,4 +1,4 @@
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_extended/audioplayers.dart';
 import 'package:audioplayers_example/components/player_widget.dart';
 import 'package:audioplayers_example/components/properties_widget.dart';
 import 'package:audioplayers_example/components/stream_widget.dart';
