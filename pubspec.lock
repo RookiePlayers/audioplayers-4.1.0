@@ -38,7 +38,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "1c086956c0a1dca0ba8658d43861fd6ee9c98e2f"
+      resolved-ref: "807946e9a16dfb83648cf17bb0a2be8b813db3c2"
       url: "https://github.com/RookiePlayers/audioplayers_android-4.0.3"
     source: git
     version: "4.0.3"
