@@ -27,7 +27,7 @@
     },
     {
       "name": "audioplayers_android",
-      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_android-4.0.3-5978a2d744b21888451b8729069776eab5fb91d4/",
+      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_android-4.0.3-1c086956c0a1dca0ba8658d43861fd6ee9c98e2f/",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -380,7 +380,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-12-15T12:55:39.809585Z",
+  "generated": "2023-12-15T13:03:19.392666Z",
   "generator": "pub",
   "generatorVersion": "3.1.0-65.0.dev"
 }
