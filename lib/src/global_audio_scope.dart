@@ -7,7 +7,7 @@ import 'package:audioplayers_platform_interface/audioplayers_platform_interface.
 /// Handle global audio scope like calls and events concerning all AudioPlayers.
 class GlobalAudioScope {
   final _platform = GlobalAudioplayersPlatformInterface.instance;
-
+  Future<int?> get audioSessionId => _platform.audioSessionId;
   /// Stream of global events.
   late final Stream<GlobalAudioEvent> eventStream;
 

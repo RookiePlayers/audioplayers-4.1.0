@@ -41,6 +41,9 @@ class AudioPlayer {
     _playerState = state;
   }
 
+  
+  Future<int?> get audioSessionId => _platform.audioSessionId;
+
   /// Completer to wait until the native player and its event stream are
   /// created.
   @visibleForTesting
