@@ -38,7 +38,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "64c7a800cd3f89ce8ed64a3ad5bfcc1d35796525"
+      resolved-ref: "5978a2d744b21888451b8729069776eab5fb91d4"
       url: "https://github.com/RookiePlayers/audioplayers_android-4.0.3"
     source: git
     version: "4.0.3"
@@ -47,7 +47,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "7ffc55dcb82fcff1971a2e10a886f67334281048"
+      resolved-ref: "8fe7a47f9bc0c315c2779de947fb45333c3be156"
       url: "https://github.com/RookiePlayers/audioplayers_darwin-5.0.2"
     source: git
     version: "5.0.2"
@@ -83,7 +83,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e84fa915f32ef3f567acdc722bdf1b0a6d4d2e81
+      resolved-ref: "7ac253a1869475fad65b8fed93cde6348cb2f129"
       url: "https://github.com/RookiePlayers/audioplayers_windows-3.1.0"
     source: git
     version: "3.1.0"
@@ -493,4 +493,4 @@ packages:
     version: "3.1.2"
 sdks:
   dart: ">=3.0.0 <4.0.0"
-  flutter: ">=3.10.0"
+  flutter: ">=3.7.0"

@@ -27,15 +27,15 @@
     },
     {
       "name": "audioplayers_android",
-      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_android-4.0.3-64c7a800cd3f89ce8ed64a3ad5bfcc1d35796525/",
+      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_android-4.0.3-5978a2d744b21888451b8729069776eab5fb91d4/",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "audioplayers_darwin",
-      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_darwin-5.0.2-7ffc55dcb82fcff1971a2e10a886f67334281048/",
+      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_darwin-5.0.2-8fe7a47f9bc0c315c2779de947fb45333c3be156/",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "audioplayers_linux",
@@ -57,7 +57,7 @@
     },
     {
       "name": "audioplayers_windows",
-      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_windows-3.1.0-e84fa915f32ef3f567acdc722bdf1b0a6d4d2e81/",
+      "rootUri": "file:///C:/Users/olami/AppData/Local/Pub/Cache/git/audioplayers_windows-3.1.0-7ac253a1869475fad65b8fed93cde6348cb2f129/",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -380,7 +380,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-12-15T11:14:52.546054Z",
+  "generated": "2023-12-15T12:55:39.809585Z",
   "generator": "pub",
   "generatorVersion": "3.1.0-65.0.dev"
 }
