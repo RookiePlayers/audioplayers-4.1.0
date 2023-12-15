@@ -44,6 +44,7 @@ class AudioPlayer {
 
   Future<int?> get audioSessionId async {
     await creatingCompleter.future;
+    debugPrint('audioPlayerId: $playerId');
     final id = await _platform.audioSessionId;
     debugPrint('audioSessionId: $id');
     return id;

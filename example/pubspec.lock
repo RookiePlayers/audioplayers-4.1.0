@@ -14,7 +14,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "71dbc31755aa6b7a1ec1dd55727e90c17d07f89e"
+      resolved-ref: "91c07576873296d0f33657c344f13525db60a65e"
       url: "https://github.com/RookiePlayers/audioplayers_android-4.0.3"
     source: git
     version: "4.0.3"
@@ -32,7 +32,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "6cb754e30832c20451132b50d2dd10fe1cda54b6"
+      resolved-ref: cbeafafc05e64d570d60f2d7ba6a77ea64ae7b2f
       url: "https://github.com/RookiePlayers/audioplayers-4.1.0"
     source: git
     version: "4.1.0"

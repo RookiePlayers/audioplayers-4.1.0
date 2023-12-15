@@ -41,7 +41,7 @@ class _ExampleAppState extends State<_ExampleApp> {
   void initState() {
     super.initState();
     audioPlayers.asMap().forEach((index, player) {
-      
+      player.audioSessionId.then((value) => debugPrint('Audio session id: $value'));
       streams.add(
         player.onPlayerStateChanged.listen(
           (it) {
