@@ -1,4 +1,4 @@
-name: audioplayers
+name: audioplayers_extended
 description: A Flutter plugin to play multiple audio files simultaneously
 version: 4.1.0
 homepage: https://github.com/bluefireteam/audioplayers

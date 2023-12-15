@@ -1,4 +1,4 @@
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_extended/audioplayers.dart';
 
 class AudioLogger {
   static AudioLogLevel logLevel = AudioLogLevel.error;

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_extended/audioplayers.dart';
 import 'package:audioplayers_example/components/indexed_stack.dart';
 import 'package:audioplayers_example/components/tabs.dart';
 import 'package:audioplayers_example/components/tgl.dart';
@@ -41,6 +41,7 @@ class _ExampleAppState extends State<_ExampleApp> {
   void initState() {
     super.initState();
     audioPlayers.asMap().forEach((index, player) {
+      
       streams.add(
         player.onPlayerStateChanged.listen(
           (it) {

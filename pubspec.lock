@@ -56,7 +56,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "211704d15734d1abec3c25f4ba3f33bb3e3c32b5"
+      resolved-ref: "7ab48f35fa0a49d6059903fd4f621ce5b9b0cca7"
       url: "https://github.com/RookiePlayers/audioplayers_linux-3.1.0"
     source: git
     version: "3.1.0"
@@ -74,7 +74,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "7878c9cfc5828fe18f4341ee291db536c715a969"
+      resolved-ref: "35cbb4ef774ef60ed09cebcf5a3b4d7864345814"
       url: "https://github.com/RookiePlayers/audioplayers_web-4.1.0"
     source: git
     version: "4.1.0"
@@ -83,7 +83,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "53cd708c98970516aeab21f3dc57200118e0551f"
+      resolved-ref: e84fa915f32ef3f567acdc722bdf1b0a6d4d2e81
       url: "https://github.com/RookiePlayers/audioplayers_windows-3.1.0"
     source: git
     version: "3.1.0"
